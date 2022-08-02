@@ -2,8 +2,9 @@
 
 try {
     asdflçj();
-} catch (\Throwable $th) {
-    echo 'erro de sintaxe';
+} catch (\Throwable $e) {
+    echo 'erro de sintaxe ';
+    echo "erro " .$e->getMessage();
 }
 
 ?>
